@@ -69,7 +69,7 @@ function esVocal(letra) {
       else if(letra == "1","2","3","4","5","6","7","8","9","0"){
       return "Dato incorrecto"
      }
-      else if( letra == "a","e","i","o","u"){
+      else if( letra === "a" || letra === "e" || letra ==="i" || letra ==="o" || letra ==="u"){
          return "Es vocal"
       }
 }
